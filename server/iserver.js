@@ -8,7 +8,6 @@ const {dirname}=require('path')
 const viewPath=path.join(__dirname,'../itemplate/views')
 const partialsPath=path.join(__dirname,'../itemplate/partials')
 // console.log(partialsPath)
-// console.log(viewPath)
 const app=express()
 const port=process.env.Port||3000
 app.set('view engine','hbs')
